@@ -1,0 +1,15 @@
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net7.0\DevicesSystem.Infrastructure.deps.json
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net7.0\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net7.0\DevicesSystem.Infrastructure.pdb
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net7.0\DevicesSystem.Domain.dll
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net7.0\DevicesSystem.Domain.pdb
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.csproj.CopyComplete
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\refint\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\DevicesSystem.Infrastructure.pdb
+C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net7.0\ref\DevicesSystem.Infrastructure.dll
