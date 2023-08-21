@@ -1210,11 +1210,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem\\DevicesSystem.Api.csproj",
+      "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Api\\DevicesSystem.Api.csproj",
       "projectName": "DevicesSystem.Api",
-      "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem\\DevicesSystem.Api.csproj",
+      "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Api\\DevicesSystem.Api.csproj",
       "packagesPath": "C:\\Users\\vilmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem\\obj\\",
+      "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Api\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vilmi\\AppData\\Roaming\\NuGet\\NuGet.Config",

@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "0d29dU/0R2uM8RdjIr5FoBdC+G3qNqfDWsvT6WDTwnacg3gwge3MqmYC3tmlqMEvgFVXWTYu0diNlMQhyvXXKA==",
+  "dgSpecHash": "BHEOL5i8xG8ZMGhd1Lq1ay5QNcLq0W7rtLOGdmbJnqXzU4zOmFgT8dxIARar7LVmwdm+wcP2osUpTd5li9N/kg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem\\DevicesSystem.Api.csproj",
+  "projectFilePath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Api\\DevicesSystem.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.aspnetcore\\1.8.5\\hangfire.aspnetcore.1.8.5.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.core\\1.8.5\\hangfire.core.1.8.5.nupkg.sha512",
