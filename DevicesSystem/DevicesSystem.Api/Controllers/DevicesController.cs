@@ -1,63 +1,54 @@
-﻿using DevicesSystem.Domain.Entities;
+﻿using DevicesSystem.Api.Requests;
 using Microsoft.AspNetCore.Mvc;
 using DeviceSystem.Application.Services;
 using DevicesSystem.Domain;
-using DevicesSystem.Api.Serialization;
-using Newtonsoft.Json;
 
 namespace DevicesSystem.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class DevicesController : ControllerBase
+    public class DevicesController(IDeviceService service) : ControllerBase
     {
-        private readonly IDeviceService _service;
-
-        public DevicesController(IDeviceService service)
-        {
-            _service = service;
-        }
-
         [HttpPost]
         [Route("/addDevice")]
-        public void AddDevice([FromBody][JsonConverter(typeof(TurnableSingleConverter))] ITurnable device)
+        public void AddDevice([FromBody]DeviceCreateRequest device)
         {
-            _service.AddDevice(device);
+            service.AddDevice(device.Device);
         }
 
         [HttpGet]
-        [Route("/retrieveDevice")]
-        public ITurnable? RetrieveDevice([FromQuery] Guid id)
+        [Route("/{id}/retrieveDevice")]
+        public IDeviceControl? RetrieveDevice([FromRoute] Guid id)
         {
-            return _service.RetrieveDevice(id);
+            return service.RetrieveDevice(id);
         }
 
         [HttpPut]
-        [Route("/updateThermostatTemperature")]
-        public void UpdateThermostatTemperature([FromQuery] Guid id, [FromQuery] double temperature)
+        [Route("/{id}/updateThermostatTemperature")]
+        public void UpdateThermostatTemperature([FromRoute] Guid id, [FromQuery] double temperature)
         {
-            _service.UpdateThermostatTemperature(id, temperature);
+            service.UpdateThermostatTemperature(id, temperature);
         }
 
         [HttpPut]
-        [Route("/turnOnDevice")]
-        public void TurnOnDevice([FromQuery] Guid id)
+        [Route("/{id}/turnOnDevice")]
+        public void TurnOnDevice([FromRoute] Guid id)
         {
-            _service.TurnOnDevice(id);
+            service.TurnOnDevice(id);
         }
 
         [HttpPut]
-        [Route("/turnOffDevice")]
-        public void TurnOffDevice([FromQuery] Guid id)
+        [Route("/{id}/turnOffDevice")]
+        public void TurnOffDevice([FromRoute] Guid id)
         {
-            _service.TurnOffDevice(id);
+            service.TurnOffDevice(id);
         }
 
         [HttpGet]
         [Route("/getDevices")]
-        public IReadOnlyList<ITurnable> GetDevices()
+        public IReadOnlyList<IDeviceControl> GetDevices()
         {
-            return _service.GetDevices();
+            return service.GetDevices();
         }
     }
 }

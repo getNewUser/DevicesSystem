@@ -1,32 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj": {}
+    "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
+    "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj",
+        "projectUniqueName": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj",
         "projectName": "DevicesSystem.Domain",
-        "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj",
+        "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj",
         "packagesPath": "C:\\Users\\vilmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\obj\\",
+        "outputPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vilmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {}
           }
         },
@@ -34,11 +35,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "imports": [
             "net461",
             "net462",
@@ -55,36 +61,37 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
+    "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
+        "projectUniqueName": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
         "projectName": "DevicesSystem.Infrastructure",
-        "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
+        "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
         "packagesPath": "C:\\Users\\vilmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\obj\\",
+        "outputPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vilmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
+              "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
               }
             }
           }
@@ -93,11 +100,16 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Hangfire.AspNetCore": {
               "target": "Package",
@@ -113,7 +125,7 @@
             },
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -132,39 +144,40 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj": {
+    "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
+        "projectUniqueName": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
         "projectName": "DeviceSystem.Application",
-        "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
+        "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
         "packagesPath": "C:\\Users\\vilmi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\obj\\",
+        "outputPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\vilmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
-          "net7.0"
+          "net8.0"
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
-          "net7.0": {
-            "targetAlias": "net7.0",
+          "net8.0": {
+            "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
-                "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
+              "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
+                "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
               },
-              "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
-                "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj"
+              "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj"
               }
             }
           }
@@ -173,15 +186,20 @@
           "warnAsError": [
             "NU1605"
           ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
         }
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "dependencies": {
             "Microsoft.Extensions.DependencyInjection.Abstractions": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[8.0.2, )"
             }
           },
           "imports": [
@@ -200,7 +218,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

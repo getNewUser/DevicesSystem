@@ -1,5 +1,5 @@
 ﻿using DevicesSystem.Domain;
-using DevicesSystem.Domain.Entities;
+using DevicesSystem.Domain.Models;
 using DevicesSystem.Infrastructure.Persistance;
 using DevicesSystem.Infrastructure.Services;
 
@@ -16,18 +16,17 @@ namespace DeviceSystem.Application.Services
             _actionLogService = actionLogService;
         }
 
-        public void AddDevice(ITurnable device) => _cache.AddDevice(device);
+        public void AddDevice(IDeviceControl device) => _cache.AddDevice(device);
 
-        public List<ITurnable> GetDevices() => _cache.GetDevices();
+        public List<IDeviceControl> GetDevices() => _cache.GetDevices();
 
-        public ITurnable? RetrieveDevice(Guid id) => _cache.GetDevice(id);
+        public IDeviceControl? RetrieveDevice(Guid id) => _cache.GetDevice(id);
 
         public void UpdateThermostatTemperature(Guid id, double temperature)
         {
             var device = _cache.GetDevice(id);
-            if (device is not null and Thermostat)
+            if (device is Thermostat thermostat)
             {
-                var thermostat = (Thermostat)device;
                 thermostat.ChangeTemperature(temperature);
             }
 

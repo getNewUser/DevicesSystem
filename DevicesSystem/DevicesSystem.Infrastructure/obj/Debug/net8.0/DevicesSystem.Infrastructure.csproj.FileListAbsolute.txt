@@ -1,0 +1,15 @@
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net8.0\DevicesSystem.Infrastructure.deps.json
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net8.0\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net8.0\DevicesSystem.Infrastructure.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net8.0\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\bin\Debug\net8.0\DevicesSystem.Domain.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.AssemblyInfo.cs
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesS.0740303D.Up2Date
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\refint\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\DevicesSystem.Infrastructure.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Infrastructure\obj\Debug\net8.0\ref\DevicesSystem.Infrastructure.dll

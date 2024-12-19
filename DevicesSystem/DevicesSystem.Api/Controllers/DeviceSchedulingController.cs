@@ -1,31 +1,24 @@
-﻿using DevicesSystem.Application.Services;
+﻿using DeviceSystem.Application.Services;
 using Microsoft.AspNetCore.Mvc;
 
 namespace DevicesSystem.Api.Controllers
 {
     [ApiController]
     [Route("[controller]")]
-    public class DeviceSchedulingController : ControllerBase
+    public class DeviceSchedulingController(IDeviceScheduler scheduler) : ControllerBase
     {
-        private readonly IDeviceScheduler _scheduler;
-
-        public DeviceSchedulingController(IDeviceScheduler scheduler)
+        [HttpPost]
+        [Route("/{id}/turnOnDevice")]
+        public void ScheduleDeviceTurnOn([FromRoute] Guid id, [FromQuery] DateTime when)
         {
-            _scheduler = scheduler;
+            scheduler.ScheduleDeviceTurnOn(id, when);
         }
 
         [HttpPost]
-        [Route("/turnOnDevice")]
-        public void ScheduleDeviceTurnOn([FromQuery] Guid id, [FromQuery] DateTime when)
+        [Route("/{id}/turnOffDevice")]
+        public void ScheduleDeviceTurnOff([FromRoute] Guid id, [FromQuery] DateTime when)
         {
-            _scheduler.ScheduleDeviceTurnOn(id, when);
-        }
-
-        [HttpPost]
-        [Route("/turnOffDevice")]
-        public void ScheduleDeviceTurnOff([FromQuery] Guid id, [FromQuery] DateTime when)
-        {
-            _scheduler.ScheduleDeviceTurnOff(id, when);
+            scheduler.ScheduleDeviceTurnOff(id, when);
         }
     }
 }

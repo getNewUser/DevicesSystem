@@ -1,0 +1,17 @@
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DeviceSystem.Application.deps.json
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DeviceSystem.Application.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DeviceSystem.Application.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DevicesSystem.Infrastructure.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DevicesSystem.Domain.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\bin\Debug\net8.0\DevicesSystem.Infrastructure.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.csproj.AssemblyReference.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.AssemblyInfoInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.AssemblyInfo.cs
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.csproj.CoreCompileInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSy.9CB853F9.Up2Date
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\refint\DeviceSystem.Application.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\DeviceSystem.Application.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DeviceSystem.Application\obj\Debug\net8.0\ref\DeviceSystem.Application.dll

@@ -18,8 +18,7 @@ namespace DevicesSystem.Api
             builder.Services.AddControllers()
                 .AddNewtonsoftJson(options =>
             {
-                options.SerializerSettings.Converters.Add(new TurnableSingleConverter());
-                options.SerializerSettings.Converters.Add(new TurnableCollectionConverter());
+                options.SerializerSettings.Converters.Add(new DeviceSerializer());
 
             });
             // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

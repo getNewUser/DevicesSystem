@@ -1,15 +1,15 @@
 {
   "version": 2,
-  "dgSpecHash": "MzPHbEl+/smzzW3JQeH4YXVWJasSplvr1Ptl0MXC0Wf03AAVMx6tQP4ibY8Esda6GGJ24kJERRp24/SlgR7gOQ==",
+  "dgSpecHash": "XiaPLZ48+Y8=",
   "success": true,
-  "projectFilePath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
+  "projectFilePath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.aspnetcore\\1.8.5\\hangfire.aspnetcore.1.8.5.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.core\\1.8.5\\hangfire.core.1.8.5.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.memorystorage\\1.8.0\\hangfire.memorystorage.1.8.0.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\hangfire.netcore\\1.8.5\\hangfire.netcore.1.8.5.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.configuration.abstractions\\3.0.0\\microsoft.extensions.configuration.abstractions.3.0.0.nupkg.sha512",
-    "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+    "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\8.0.2\\microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.fileproviders.abstractions\\3.0.0\\microsoft.extensions.fileproviders.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.hosting.abstractions\\3.0.0\\microsoft.extensions.hosting.abstractions.3.0.0.nupkg.sha512",
     "C:\\Users\\vilmi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.0.0\\microsoft.extensions.logging.abstractions.3.0.0.nupkg.sha512",

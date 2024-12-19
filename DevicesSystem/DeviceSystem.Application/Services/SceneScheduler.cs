@@ -1,14 +1,7 @@
-﻿using DevicesSystem.Infrastructure.Persistance;
-using DevicesSystem.Infrastructure.Services;
-using DeviceSystem.Application.Services;
+﻿using DevicesSystem.Infrastructure.Services;
 using Hangfire;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
-namespace DevicesSystem.Application.Services
+namespace DeviceSystem.Application.Services
 {
     internal class SceneScheduler : ISceneScheduler
     {

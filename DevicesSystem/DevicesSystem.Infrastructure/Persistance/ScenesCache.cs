@@ -1,10 +1,5 @@
 ﻿using DevicesSystem.Domain;
-using DevicesSystem.Domain.Entities;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DevicesSystem.Domain.Models;
 
 namespace DevicesSystem.Infrastructure.Persistance
 {
@@ -12,7 +7,7 @@ namespace DevicesSystem.Infrastructure.Persistance
     {
         private readonly List<Scene> _scenes = new();
 
-        public void CreateScene(List<ITurnable> devices)
+        public void CreateScene(List<IDeviceControl> devices)
         {
             var scene = new Scene(devices);
             _scenes.Add(scene);

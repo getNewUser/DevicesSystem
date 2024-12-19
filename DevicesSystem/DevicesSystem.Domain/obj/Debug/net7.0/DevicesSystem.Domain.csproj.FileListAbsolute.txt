@@ -10,3 +10,14 @@ C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Domain\obj\Debug\net
 C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\refint\DevicesSystem.Domain.dll
 C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.pdb
 C:\Users\vilmi\Documents\twoday\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\ref\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\bin\Debug\net7.0\DevicesSystem.Domain.deps.json
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\bin\Debug\net7.0\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\bin\Debug\net7.0\DevicesSystem.Domain.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.AssemblyInfoInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.AssemblyInfo.cs
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.csproj.CoreCompileInputs.cache
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\refint\DevicesSystem.Domain.dll
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\DevicesSystem.Domain.pdb
+C:\Users\vilmi\Desktop\DevicesSystem\DevicesSystem.Domain\obj\Debug\net7.0\ref\DevicesSystem.Domain.dll

@@ -140,7 +140,10 @@
       },
       "DevicesSystem.Domain/1.0.0": {
         "runtime": {
-          "DevicesSystem.Domain.dll": {}
+          "DevicesSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

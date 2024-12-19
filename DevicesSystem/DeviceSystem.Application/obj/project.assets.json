@@ -1,7 +1,7 @@
 {
   "version": 3,
   "targets": {
-    "net7.0": {
+    "net8.0": {
       "Hangfire.AspNetCore/1.8.5": {
         "type": "package",
         "dependencies": {
@@ -128,15 +128,15 @@
           }
         }
       },
-      "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
         "type": "package",
         "compile": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
             "related": ".xml"
           }
         },
@@ -220,7 +220,7 @@
       },
       "DevicesSystem.Domain/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
           "bin/placeholder/DevicesSystem.Domain.dll": {}
         },
@@ -230,13 +230,13 @@
       },
       "DevicesSystem.Infrastructure/1.0.0": {
         "type": "project",
-        "framework": ".NETCoreApp,Version=v7.0",
+        "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "DevicesSystem.Domain": "1.0.0",
           "Hangfire.AspNetCore": "1.8.5",
           "Hangfire.Core": "1.8.5",
           "Hangfire.MemoryStorage": "1.8.0",
-          "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.2"
         },
         "compile": {
           "bin/placeholder/DevicesSystem.Infrastructure.dll": {}
@@ -411,15 +411,16 @@
         "microsoft.extensions.configuration.abstractions.nuspec"
       ]
     },
-    "Microsoft.Extensions.DependencyInjection.Abstractions/7.0.0": {
-      "sha512": "h3j/QfmFN4S0w4C2A6X7arXij/M/OVw3uQHSOFxnND4DyAzO1F9eMX7Eti7lU/OkSthEE0WzRsfT/Dmx86jzCw==",
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.2": {
+      "sha512": "3iE7UF7MQkCv1cxzCahz+Y/guQbTqieyxyaWKhrRO91itI9cOKO76OHeQDahqG4MmW5umr3CcCvGmK92lWNlbg==",
       "type": "package",
-      "path": "microsoft.extensions.dependencyinjection.abstractions/7.0.0",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.2",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
         "Icon.png",
         "LICENSE.TXT",
+        "PACKAGE.md",
         "THIRD-PARTY-NOTICES.TXT",
         "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
         "buildTransitive/net462/_._",
@@ -431,11 +432,13 @@
         "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
         "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
-        "microsoft.extensions.dependencyinjection.abstractions.7.0.0.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.2.nupkg.sha512",
         "microsoft.extensions.dependencyinjection.abstractions.nuspec",
         "useSharedDesignerContext.txt"
       ]
@@ -540,10 +543,10 @@
     }
   },
   "projectFileDependencyGroups": {
-    "net7.0": [
+    "net8.0": [
       "DevicesSystem.Domain >= 1.0.0",
       "DevicesSystem.Infrastructure >= 1.0.0",
-      "Microsoft.Extensions.DependencyInjection.Abstractions >= 7.0.0"
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.2"
     ]
   },
   "packageFolders": {
@@ -552,32 +555,33 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
+      "projectUniqueName": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
       "projectName": "DeviceSystem.Application",
-      "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
+      "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\DeviceSystem.Application.csproj",
       "packagesPath": "C:\\Users\\vilmi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DeviceSystem.Application\\obj\\",
+      "outputPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DeviceSystem.Application\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\vilmi\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
-        "net7.0"
+        "net8.0"
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
-        "net7.0": {
-          "targetAlias": "net7.0",
+        "net8.0": {
+          "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
-              "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
+            "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj": {
+              "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Domain\\DevicesSystem.Domain.csproj"
             },
-            "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\vilmi\\Documents\\twoday\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj"
+            "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\vilmi\\Desktop\\DevicesSystem\\DevicesSystem.Infrastructure\\DevicesSystem.Infrastructure.csproj"
             }
           }
         }
@@ -586,15 +590,20 @@
         "warnAsError": [
           "NU1605"
         ]
+      },
+      "restoreAuditProperties": {
+        "enableAudit": "true",
+        "auditLevel": "low",
+        "auditMode": "direct"
       }
     },
     "frameworks": {
-      "net7.0": {
-        "targetAlias": "net7.0",
+      "net8.0": {
+        "targetAlias": "net8.0",
         "dependencies": {
           "Microsoft.Extensions.DependencyInjection.Abstractions": {
             "target": "Package",
-            "version": "[7.0.0, )"
+            "version": "[8.0.2, )"
           }
         },
         "imports": [
@@ -613,7 +622,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.203\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.403/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

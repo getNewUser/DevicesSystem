@@ -138,7 +138,10 @@
       },
       "DevicesSystem.Domain/1.0.0": {
         "runtime": {
-          "DevicesSystem.Domain.dll": {}
+          "DevicesSystem.Domain.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       },
       "DevicesSystem.Infrastructure/1.0.0": {
@@ -150,7 +153,10 @@
           "Microsoft.Extensions.DependencyInjection.Abstractions": "7.0.0"
         },
         "runtime": {
-          "DevicesSystem.Infrastructure.dll": {}
+          "DevicesSystem.Infrastructure.dll": {
+            "assemblyVersion": "1.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }

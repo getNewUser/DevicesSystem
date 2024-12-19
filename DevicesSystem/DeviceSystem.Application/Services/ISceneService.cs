@@ -1,10 +1,10 @@
-﻿using DevicesSystem.Domain.Entities;
-using DevicesSystem.Domain;
+﻿using DevicesSystem.Domain;
 using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using DevicesSystem.Domain.Models;
 
 namespace DeviceSystem.Application.Services
 {

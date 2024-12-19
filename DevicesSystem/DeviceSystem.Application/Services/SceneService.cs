@@ -1,12 +1,6 @@
-﻿using DevicesSystem.Domain;
-using DevicesSystem.Domain.Entities;
-using DevicesSystem.Infrastructure.Persistance;
+﻿using DevicesSystem.Infrastructure.Persistance;
 using DevicesSystem.Infrastructure.Services;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+using DevicesSystem.Domain.Models;
 
 namespace DeviceSystem.Application.Services
 {
@@ -27,8 +21,7 @@ namespace DeviceSystem.Application.Services
         {
             var devices = _devicesCache.GetDevices(devicesIds);
             _cache.CreateScene(devices);
-
-
+            
             _actionLogService.LogAction($"{nameof(CreateScene)} with devices: {string.Join(Environment.NewLine, devicesIds)}");
         }
 
@@ -50,8 +43,7 @@ namespace DeviceSystem.Application.Services
             {
                 device.TurnOn();
             }
-
-
+            
             _actionLogService.LogAction($"{nameof(TurnOnSceneDevices)} for scene: {sceneId}");
         }
 

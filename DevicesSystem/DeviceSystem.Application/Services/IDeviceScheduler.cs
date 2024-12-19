@@ -1,11 +1,4 @@
-﻿using DevicesSystem.Domain;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace DevicesSystem.Application.Services
+﻿namespace DeviceSystem.Application.Services
 {
     public interface IDeviceScheduler
     {
